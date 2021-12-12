@@ -17,7 +17,11 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 function App() {
-  return <div>My Firebase App</div>;
+  return (
+    <div>
+      <h1>My Firebase App</h1>
+    </div>
+  );
 }
 
 export default App;
